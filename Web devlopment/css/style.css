@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+   position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 0.2px solid grey;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s linear;
+}
+div {
+    height: 100%;
+}
+span {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: conic-gradient(red,blue,green);
+    -webkit-background-clip: text;
+    color: transparent;
+    height: 100%;
+    cursor: pointer;
+}
+li {
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    
+}
+section {
+    
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+}
+li:hover {
+    font-size: 1.5rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+div {
+    width: 20%;
+}
+nav.navigation>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+span:first-child {
+    font-size: 2.8rem;
+    margin-left: 1.2%;
+}
+span:nth-child(2){
+    font-size: 3.2rem;
+}
+span:nth-child(3){
+    font-size:  3.6rem;
+}
+span:nth-child(4){
+    font-size: 3.2rem;
+}
+span:nth-child(5) {
+    font-size: 2.8rem;
+}
+
+section#portfolio>h1.describers#d1 {
+font-size: 2rem;
+text-align: center;
+font-family: 'Girassol', cursive;
+font-size: 3rem;
+margin-top: 70px;
+}
+section {
+   
+}
+section#portfolio>h1+div.info {
+    
+margin: 25% 30%;
+height: 50px;
+width: 70%;
+
+}
+section#portfolio>h1+div.info>p {
+
+align-self: center;
+width: 50%;
+text-align: center;
+font-size: 1.5rem;
+margin-left: 10%;
+height: 5%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+}
